@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+
+}
+
+/* Define a margem e o preenchimento do corpo */
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+}
+
+/* Define a texto alinhado à esquerda */
+.container {
+    text-align: left;
+}
+
+/* Define a margem inferior da pergunta */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Define a exibição, alinhamento e margem superior dos rótulos e botões de opção de rádio */
+.options {
+    display: flex;
+    margin-top: 10px;
+    text-align: right;
+    align-items: right;
+}
+
+/* Define a exibição e preenchimento dos rótulos */
+input[type="radio"] {
+    display: none;
+}
+
+.question label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+/* Define a cor de fundo e a cor do texto do rótulo */
+.perguntas {
+    background-color: white;
+    color: black;
+    font-style: bold;
+}
+
+/* Define a cor de fundo e a cor do texto do rótulo selecionado */
+input[type="radio"]:checked+label {
+    background-color: #0b3d91;
+    color: #fff;
+}
+
+/* Define o estilo do botão de envio */
+button {
+    background-color: white;
+    color: #0b3d91;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Define o estilo do botão de envio ao passar o mouse */
+button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Define a largura máxima e o preenchimento do contêiner do formulário */
+.form-container {
+    max-width: 300px;
+    padding: 1rem;
+}
+
+.title_page {
+    padding: 30px 0px;
+}
+
+.box {
+    color: white;
+    background-color: #0b3d91; /* light gray background */
+    border: 1px solid #000000; /* light gray border */
+    border-radius: 10px; /* rounded corners */
+    padding: 30px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
